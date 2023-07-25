@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+#
+#
+#
+cd repo
+tar -czvf glibd.tar.gz glibd
+cd ..
+mv repo/glibd.tar.gz .

@@ -1,0 +1,19 @@
+{
+    "name": "glibd",
+    "targetType": "library",
+    "targetName": "glibd-2",
+    "sourcePaths": ["generated"],
+    "importPaths": ["generated"],
+    "description": "GlibD é o wrapper OO da linguagem de programação Digital D para Glib.",
+    "homepage": "http://localhost/gtkd",
+    "license": "Licença cIO",
+    "authors": ["{{ nome_do_autor(); }}"],
+    "preGenerateCommands-posix": [
+        "dub fetch girtod || true",
+        "cd $PACKAGE_DIR && dub run girtod -- -i src -o generated --use-runtime-linker"
+    ],
+    "preGenerateCommands-windows": [
+        "dub fetch girtod || VER>NUL",
+        "cd $PACKAGE_DIR && dub run girtod -- -i src -o generated --use-runtime-linker"
+    ]
+}

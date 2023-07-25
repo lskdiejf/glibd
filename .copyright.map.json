@@ -1,0 +1,12 @@
+[
+    "repo/glibd/src/gtkd/paths.d",
+    "repo/glibd/src/gtkd/Loader.d",
+    "repo/glibd/src/gtkd/Implement.d",
+    "repo/glibd/src/APILookup.txt",
+    "repo/glibd/src/APILookupGio.txt",
+    "repo/glibd/src/APILookupGObject.txt",
+    "repo/glibd/src/APILookupGLib.txt",
+    "repo/glibd/tests/gobject/ObjectGTest.d",
+    "repo/glibd/tests/gobject/ValueTest.d",
+    "repo/glibd/tests/gobject/DClosureTest.d"
+]
